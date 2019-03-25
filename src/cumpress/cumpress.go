@@ -185,7 +185,7 @@ fmt.Println("no file type")
 } else if len(env)==2 {
 fmt.Println("no input file")
 } else if len(env)==3 {
-fmt.Println("no output file")
+run(env[1], env[2], "./")
 
 } else {
 run(env[1], env[2], env[3])
